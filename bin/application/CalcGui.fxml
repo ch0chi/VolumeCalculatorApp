@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2C82C9;" styleClass="Pane" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Button fx:id="button" alignment="CENTER" layoutX="202.0" layoutY="275.0" mnemonicParsing="false" onAction="#getInput" styleClass="b" stylesheets="@../../../../../../Desktop/application1.css" text="Calculate Rectangle Volume" textFill="#ecf0f1" textOverrun="CLIP">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="SansSerif Regular" size="13.0" />
+         </font>
+      </Button>
+      <TextField fx:id="length" layoutX="75.0" layoutY="130.0" prefHeight="25.0" prefWidth="87.0" promptText="insert length">
+         <font>
+            <Font name="Raleway Medium" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="width" layoutX="75.0" layoutY="175.0" prefHeight="25.0" prefWidth="87.0" promptText="insert width">
+         <font>
+            <Font name="Raleway Medium" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="height" layoutX="75.0" layoutY="221.0" prefHeight="25.0" prefWidth="87.0" promptText="insert height">
+         <font>
+            <Font name="Raleway Medium" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="result" layoutX="359.0" layoutY="175.0" prefHeight="50.0" prefWidth="149.0" />
+      <Label layoutX="261.0" layoutY="21.0" prefHeight="65.0" prefWidth="64.0" styleClass="calc" stylesheets="@application.css" />
+   </children>
+</Pane>

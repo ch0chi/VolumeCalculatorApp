@@ -1,0 +1,21 @@
+
+.b{
+
+	-fx-background-color: #2CC990;
+	-fx-min-height:50px;
+}
+.b:hover{
+	-fx-background-color:#81b2d3;
+}
+.labelMain{
+	-fx-font-family: "Montserrat", sans-serif;
+	-fx-font-size:50pt;
+	-fx-text-fill:#ecf0f1;
+	-fx-opacity:1;
+}
+.Pane{
+	-fx-background:#2c3e50;
+}
+.calc{
+	-fx-background-image:url("calculator.png");
+}
